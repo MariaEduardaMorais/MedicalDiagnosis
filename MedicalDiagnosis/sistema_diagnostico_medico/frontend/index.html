@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico Médico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Diagnóstico Médico</h1>
+        
+        <form id="diagnostico-form">
+            <h2>Preencha os sintomas:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sintoma</th>
+                        <th>Intensidade</th>
+                    </tr>
+                </thead>
+                <tbody id="sintomas-container"></tbody>
+            </table>
+            <button type="submit">Obter Diagnóstico</button>
+        </form>
+
+        <h2>Resultado:</h2>
+        <p id="resultado"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
